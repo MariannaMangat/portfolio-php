@@ -1,8 +1,8 @@
 <?php
 require_once("inc/config.php");
-include(ROOT_PATH . "inc/header.php");
+include_once(ROOT_PATH . "inc/header.php");
 include_once(ROOT_PATH . "inc/analyticstracking.php");
-include(ROOT_PATH . "inc/navbar.php");
+include_once(ROOT_PATH . "inc/navbar.php");
 ?>
 <!-- Jumbotron -->
 <header id="top" class="jumbotron">
@@ -75,72 +75,7 @@ include(ROOT_PATH . "inc/navbar.php");
       </div>
     </div>
     <div class="row">
-      <div id="projects" class="carousel slide col-xs-12" data-ride="carousel" data-interval="false">
-        <div class="row">
-          <!-- Carousel Prev Button -->
-          <div class="col-xs-1">
-            <a class="left carousel-control" href="#projects" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-          </div>
-          <div class="col-xs-10">
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <div class="col-sm-7">
-                  <img class="img-responsive center-block mb-30" src="assets/portfolio/tribute/tribute-teaser.png" alt="Twenty One Pilots Tribute Page">
-                </div>
-                <div class="col-sm-5">
-                  <div class="carousel-caption card">
-                    <h3>Twenty One Pilots Tribute</h3>
-                    <h4>Responsive Web Design</h4>
-                    <button class="btn td-btn small outline green" data-toggle="modal" data-target="#tributeModal">View Details</button>
-                  </div>
-                </div>
-              </div><!-- /.item -->
-              <div class="item">
-                <div class="col-sm-7">
-                  <img class="img-responsive center-block mb-30" src="assets/portfolio/tms/tms-teaser.png" alt="Too Much Sauce">
-                </div>
-                <div class="col-sm-5">
-                  <div class="carousel-caption card">
-                    <h3>Too Much Sauce</h3>
-                    <h4>Responsive Web Design</h4>
-                    <button class="btn td-btn small outline green" data-toggle="modal" data-target="#tmsModal">View Details</button>
-                  </div>
-                </div>
-              </div><!-- /.item -->
-              <div class="item">
-                <div class="col-sm-7">
-                  <img class="img-responsive center-block mb-30" src="assets/portfolio/rb/rb-teaser.png" alt="Ryan Bechtel">
-                </div>
-                <div class="col-sm-5">
-                  <div class="carousel-caption card">
-                    <h3>Ryan Bechtel</h3>
-                    <h4>Responsive Web Design</h4>
-                    <button class="btn td-btn small outline green" data-toggle="modal" data-target="#rbModal">View Details</button>
-                  </div>
-                </div>
-              </div><!-- /.item -->
-            </div><!-- /.carousel-inner -->
-          </div><!-- /.col -->
-          <!-- Carousel Next Button -->
-          <div class="col-xs-1">
-            <a class="right carousel-control" href="#projects" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div><!-- / Next Btn -->
-          <!-- Indicators -->
-          <div class="col-xs-12">
-            <ol class="carousel-indicators mt-30">
-              <li data-target="#projects" data-slide-to="0" class="active"></li>
-              <li data-target="#projects" data-slide-to="1"></li>
-              <li data-target="#projects" data-slide-to="2"></li>
-            </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /#projects -->
+      <?php include_once(ROOT_PATH . "inc/portfolio-teasers.php"); ?>
     </div><!-- /.row -->
   </section>
   <!-- Contact Me Section -->
@@ -152,10 +87,8 @@ include(ROOT_PATH . "inc/navbar.php");
   </section>
 <?php
 // Include modals
-include(ROOT_PATH . "modals/resume.php");
-include(ROOT_PATH . "modals/project-tribute.php");
-include(ROOT_PATH . "modals/project-tms.php");
-include(ROOT_PATH . "modals/project-rb.php");
-include(ROOT_PATH . "modals/contact.php");
-include(ROOT_PATH . "inc/footer.php"); // Include footer
+foreach(glob(ROOT_PATH . "modals/*.php") as $file) {
+  include_once $file;
+}
+include_once(ROOT_PATH . "inc/footer.php"); // Include footer
 ?>

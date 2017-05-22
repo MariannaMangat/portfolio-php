@@ -13,16 +13,16 @@ body {
   font-weight: 300;
   line-height: 1.5;
 }
-h1 {
+h1, h2, h3 {
   font-family: 'Unica One', cursive;
+}
+h1 {
   font-size: 3rem;
 }
 h2 {
-  font-family: 'Unica One', cursive;
   font-size: 2.3rem;
 }
 h3 {
-  font-family: 'Unica One', cursive;
   font-size: 1.8rem;
 }
 h4 {
@@ -48,6 +48,10 @@ a:hover {
 hr {
   border-color: #cdd1cf;
   margin: 30px 0 60px;
+}
+section.row,
+footer.row {
+  padding: 30px 30px 60px;
 }
 
 /* =====================
@@ -175,13 +179,8 @@ hr {
 }
 
 /* =====================
-  Containers
+  Modals
 ===================== */
-section.row,
-footer.row {
-  padding: 30px 30px 60px;
-}
-/*** Modal ***/
 .modal-dialog.wide {
   width: 90%;
 }
@@ -230,6 +229,13 @@ footer.row {
 }
 .modal-backdrop.in {
     opacity: 0.9;
+}
+/*** Resume Modal **/
+#resumeModal h4 {
+  margin-top: 0;
+}
+.year {
+  text-align: right;
 }
 
 /* =====================
@@ -344,49 +350,42 @@ footer.row {
 }
 
 /* =====================
-  Resume Modal
-===================== */
-#resumeModal h4 {
-  margin-top: 0;
-}
-.year {
-  text-align: right;
-}
-
-/* =====================
   Portfolio Projects
 ===================== */
-#projects .carousel-control {
-  background: none;
-  color: #fffefd;
-  font-size: 2rem;
-  margin-top: 150%;
+.teaser { position: relative; }
+.teaser img {
+  margin-bottom: 30px;
+  transition: filter 0.3s ease-in-out;
+}
+.overlay {
+  align-items: center;
+  background-color: rgba(255,255,255,0.9);
+  color: #394c4a;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  opacity: 0;
+  padding: 10%;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  z-index: 50;
+}
+.overlay h3 {
+  /*color: #29a598;*/
+}
+.overlay h4 {
+  font-size: 0.8rem;
+}
+.teaser:hover .overlay {
   opacity: 1;
-  width: 100%;
-  transition: all 0.2s ease-in-out;
-  text-shadow: none;
 }
-#projects .carousel-control:focus,
-#projects .carousel-control:hover {
-  color: #29a598;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+.teaser:hover img {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
 }
-#projects .carousel-inner {
-  overflow: inherit;
-}
-#projects .carousel-inner img {
-  width: 100%;
-}
-#projects .carousel-caption {
-  bottom: inherit;
-  left: inherit;
-  position: relative;
-  right: inherit;
-  text-align: left;
-  text-shadow: none;
-}
+/* Card Styles */
 .card {
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(8,33,30,0.5);
@@ -399,7 +398,7 @@ footer.row {
 .card h4 {
   font-size: 0.8rem;
 }
-#portfolio .carousel-indicators {
+/*#portfolio .carousel-indicators {
   bottom: 0;
   position: relative;
 }
@@ -411,7 +410,7 @@ footer.row {
 #portfolio .carousel-indicators li.active {
   height: 17px;
   width: 17px;
-}
+}*/
 /*** Project Modals ***/
 .hero {
   margin: 30px auto;
@@ -478,7 +477,6 @@ footer.row {
 .dashed {
   border-top: 2px dashed #ffce3f;
 }
-<<<<<<< HEAD:css/style.css
 .hideAlert {
   display: none;
   /*height: 0;*/
@@ -492,11 +490,10 @@ footer.row {
 }
 .hideAlert p {
   padding: 15px 30px 15px 15px;
-=======
+}
 /*** Contact Form ***/
 .checkbox {
   display: none;
->>>>>>> parent of d54e913... Added name attributes and alert message to contact form:style.css
 }
 
 /* =====================

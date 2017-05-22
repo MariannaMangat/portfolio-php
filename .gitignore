@@ -1,3 +1,5 @@
 tests/
 inc/creds.php
 inc/analyticstracking.php
+inc/carousel-content.php
+
