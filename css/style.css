@@ -216,6 +216,9 @@ footer.row {
 .modal-header .close {
   font-size: 2rem;
 }
+.modal-header .modal-title {
+  text-transform: uppercase;
+}
 .modal-content {
   background-color: #fffefd;
   border: none;
