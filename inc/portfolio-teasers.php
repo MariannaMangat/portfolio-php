@@ -1,8 +1,8 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a href="#" data-toggle="modal" data-target="#tributeModal">
-        <div class="teaser">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+        <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/teaser.png" alt="teaser">
           <div class="overlay">
             <div>
@@ -18,8 +18,8 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a href="#" data-toggle="modal" data-target="#tributeModal">
-        <div class="teaser">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+        <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/teaser.png" alt="teaser">
           <div class="overlay">
             <div>
@@ -35,8 +35,8 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a href="#" data-toggle="modal" data-target="#tributeModal">
-        <div class="teaser">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+        <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/teaser.png" alt="teaser">
           <div class="overlay">
               <div>
@@ -52,8 +52,8 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a href="#" data-toggle="modal" data-target="#tributeModal">
-        <div class="teaser">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+        <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/teaser.png" alt="teaser">
           <div class="overlay">
             <div>
@@ -69,8 +69,8 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a href="#" data-toggle="modal" data-target="#tributeModal">
-        <div class="teaser">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+        <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/teaser.png" alt="teaser">
           <div class="overlay">
             <div>
@@ -86,8 +86,8 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a href="#" data-toggle="modal" data-target="#tributeModal">
-        <div class="teaser">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+        <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/teaser.png" alt="teaser">
           <div class="overlay">
             <div>

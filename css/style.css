@@ -28,6 +28,7 @@ h3 {
 h4 {
   color: #9da7a6;
   font-size: 1.1rem;
+  font-weight: 600;
   letter-spacing: 1px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -44,6 +45,8 @@ a:focus,
 a:hover {
   background-color: #29a598;
   color: #fffefd;
+  /*outline: 3px auto #ccc;*/
+  outline: none;
 }
 hr {
   border-color: #cdd1cf;
@@ -69,6 +72,13 @@ footer.row {
   top: 0;
   z-index: 1000;
 }
+.navbar-default > .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-collapse {
+  padding-right: 0;
+}
 .navbar-header {
   height: 80px;
 }
@@ -89,7 +99,6 @@ footer.row {
   margin-top: 10px;
   opacity: 0;
   overflow: hidden;
-  text-transform: uppercase;
   transition: opacity 0.5s ease-in-out;
 }
 .navbar-brand .logo {
@@ -100,12 +109,17 @@ footer.row {
 .navbar-brand span {
   color: #29a598;
 }
+.navbar-brand:focus span,
+.navbar-brand:hover span {
+  text-decoration: underline;
+}
 .navbar-nav > li > a,
 .navbar-nav > li > button {
   color: #6b7a78;
   height: 36px;
   line-height: 36px;
   margin-top: 22px;
+  text-transform: uppercase;
 }
 .navbar-default .navbar-nav > .active > a {
   background-color: transparent;
@@ -117,7 +131,8 @@ footer.row {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent;
-  color: #208479;
+  /*color: #208479;*/
+
   text-decoration: underline;
 }
 /* Fixed Menu */
@@ -241,6 +256,12 @@ footer.row {
 /* =====================
   Buttons
 ===================== */
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus,
+.btn:active:focus, .btn:focus {
+  /*outline: 3px auto #ccc;*/
+  outline: none;
+}
 .td-btn {
   padding: 12px 36px;
   text-transform: uppercase;
@@ -352,7 +373,7 @@ footer.row {
 /* =====================
   Portfolio Projects
 ===================== */
-.teaser { position: relative; }
+.teaser > div { position: relative; }
 .teaser img {
   margin-bottom: 30px;
   transition: filter 0.3s ease-in-out;
@@ -378,10 +399,10 @@ footer.row {
 .overlay h4 {
   font-size: 0.8rem;
 }
-.teaser:hover .overlay {
+.teaser:focus .overlay, .teaser:hover .overlay {
   opacity: 1;
 }
-.teaser:hover img {
+.teaser:focus img, .teaser:hover img {
   -webkit-filter: blur(1px);
   filter: blur(1px);
 }
@@ -523,6 +544,9 @@ footer.row {
   section .row [class*=" col-sm-"] + [class*=" col-sm-"] {
     margin-top: 30px;
   }
+  footer div {
+    text-align: center;
+  }
   /*** Jumbotron ***/
   .jumbotron .logo {
     max-width: 120px;
@@ -564,10 +588,7 @@ footer.row {
     width: auto;
   }
   /*** Portfolio ***/
-  #projects .carousel-control {
-    margin-top: 300%;
-  }
-  #projects .card {
-    text-align: center;
+  .teaser img {
+    margin-bottom: 0;
   }
 }
