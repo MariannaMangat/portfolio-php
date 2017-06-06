@@ -10,7 +10,7 @@
         <div class="modal-body">
           <div class="flex-container">
             <div class="flex-item full">
-              <img src="assets/portfolio/weather/weather-hero-lg.jpg" alt="Weather app">
+              <img src="assets/portfolio/weather/weather-hero.jpg" alt="Weather app hero">
             </div>
             <div class="flex-item full">
               <div class="text">
