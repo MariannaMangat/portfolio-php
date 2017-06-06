@@ -423,33 +423,53 @@ footer.row {
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(8,33,30,0.5);
   color: #394c4a;
-  padding: 30px;
+  padding: 10%;
 }
 .card h3 {
   margin-top: 0;
 }
-.card h4 {
-  font-size: 0.8rem;
+.modal-dialog.wide .card > .row {
+  margin-bottom: 0;
 }
-/*#portfolio .carousel-indicators {
-  bottom: 0;
-  position: relative;
-}
-#portfolio .carousel-indicators li {
-  border-radius: 20px;
-  height: 15px;
-  width: 15px;
-}
-#portfolio .carousel-indicators li.active {
-  height: 17px;
-  width: 17px;
-}*/
 /*** Project Modals ***/
-/*.hero {
-  margin: 30px auto;
-  max-width: 900px;
+/*** Flexbox Grid ***/
+.flex-container {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+.flex-item {
+  align-items: center;
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  margin: 0 0 30px;
+  overflow: hidden;
+  width: 48.5%;
+}
+.flex-item > img {
   width: 100%;
-}*/
+}
+.flex-item.full, .flex-item.full > img {
+  height: auto;
+  width: 100%;
+}
+.flex-item.full.crop {
+  height: 500px;
+}
+.flex-item.full > .text {
+  max-width: 720px;
+  padding: 20px 0 30px;
+}
+.flex-item.left {
+  justify-content: flex-start;
+}
+.flex-item.top {
+  align-items: flex-start;
+}
 .label.tag {
     background-color: #ffce3f;
     border-radius: 0;
@@ -532,9 +552,18 @@ footer.row {
 /* =====================
   Media Queries
 ===================== */
-@media (max-width: 1199px) {
+@media (max-width: 1299px) {
   /* Center class for medium screens */
   .md-center { text-align: center; }
+  /*** Portfolio ***/
+  /* Project Modals */
+  .flex-item > img {
+    height: 100%;
+    width: auto;
+  }
+ /* .modal .modal-body img {
+    margin-bottom: 30px;
+  }*/
 }
 @media (max-width: 991px) {
   /*** Resume ***/
@@ -542,12 +571,19 @@ footer.row {
     text-align: left;
   }
   /*** Portfolio ***/
-  #projects .carousel-control {
-    margin-top: 300%;
+  .flex-container {
+    flex-flow: column nowrap;
   }
-  #projects .carousel-inner img {
-    max-width: 480px;
+  .flex-item {
+    height: auto;
     width: 100%;
+  }
+  .flex-item > img {
+    height: auto;
+    width: 100%;
+  }
+  .flex-item.full.crop {
+    height: auto;
   }
 }
 @media (max-width: 767px) {
@@ -602,5 +638,8 @@ footer.row {
   /*** Portfolio ***/
   .teaser img {
     margin-bottom: 0;
+  }
+  .flex-item.full > .text {
+    padding: 0;
   }
 }

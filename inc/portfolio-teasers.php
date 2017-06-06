@@ -24,7 +24,7 @@
           <div class="overlay">
             <div>
               <h3>Local Weather App</h3>
-              <h4>Web Development | UI Design</h4>
+              <h4>Web Development | UI/UX Design</h4>
             </div>
           </div>
         </div>
