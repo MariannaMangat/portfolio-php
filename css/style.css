@@ -451,6 +451,7 @@ footer.row {
   width: 48.5%;
 }
 .flex-item > img {
+  border: 1px solid #eee;
   width: 100%;
 }
 .flex-item.full, .flex-item.full > img {
