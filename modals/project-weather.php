@@ -68,7 +68,7 @@
                 <a class="btn td-btn outline green iconBtn mb-15" href="https://github.com/tiffanyadu/weather-app" target="_blank" title="View Local Weather App on GitHub"><img src="assets/icons/social/github-green.svg" alt="GitHub Icon">View on GitHub</a>
               </div>
             </div>
-          </div>
+          </div><!-- /.flex-container -->
           <div class="modal-footer center">
             <button class="btn td-btn outline small" type="button" data-dismiss="modal">Close Project</button>
           </div><!-- /.modal-footer -->
