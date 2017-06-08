@@ -1,4 +1,4 @@
-  <!-- Weather App Project Modal -->
+  <!-- Random Design Quote Project Modal -->
   <div id="quoteModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="quoteTitle">
     <div class="modal-dialog wide" role="document">
       <div class="modal-content text-left">
