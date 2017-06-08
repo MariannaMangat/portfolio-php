@@ -35,12 +35,12 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#quoteModal">
         <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/quote-teaser.jpg" alt="Random design quote teaser">
           <div class="overlay">
             <div>
-              <h3>Random Design Quotes</h3>
+              <h3>Random Design Quote Generator</h3>
               <h4>Web Development</h4>
             </div>
           </div>
@@ -54,9 +54,9 @@
     <div class="col-xs-12">
       <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
         <div>
-          <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/tribute-teaser.jpg" alt="Twenty One Pilots tribute teaser">
+          <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/tribute-teaser.jpg" alt="Twenty One Pilots Tribute teaser">
           <div class="overlay">
-              <div>
+            <div>
               <h3>Twenty One Pilots Tribute</h3>
               <h4>Web Development</h4>
             </div>
@@ -69,30 +69,13 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
+      <a class="teaser" href="#" data-toggle="modal" data-target="#">
         <div>
-          <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/weather5.png" alt="teaser">
+          <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/placeholder-teaser.png" alt="Placeholder teaser">
           <div class="overlay">
-            <div>
-              <h3>Project Title</h3>
-              <h4>Responsive Web Design</h4>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
-<div class="col-sm-6 col-lg-4">
-  <div class="row">
-    <div class="col-xs-12">
-      <a class="teaser" href="#" data-toggle="modal" data-target="#tributeModal">
-        <div>
-          <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/weather6.png" alt="teaser">
-          <div class="overlay">
-            <div>
-              <h3>Project Title</h3>
-              <h4>Responsive Web Design</h4>
+              <div>
+              <h3>Ryan Bechtel - Motion Graphic Designer</h3>
+              <h4>Web Design &amp; Development</h4>
             </div>
           </div>
         </div>
