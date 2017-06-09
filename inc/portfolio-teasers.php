@@ -52,7 +52,7 @@
 <div class="col-sm-6 col-lg-4">
   <div class="row">
     <div class="col-xs-12">
-      <a class="teaser" href="#" data-toggle="modal" data-target="#">
+      <a class="teaser" data-toggle="modal" data-target="#">
         <div>
           <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/placeholder-teaser.png" alt="Placeholder teaser">
           <div class="overlay">
