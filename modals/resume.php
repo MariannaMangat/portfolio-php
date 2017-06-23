@@ -18,17 +18,17 @@
             </div>
             <div class="col-md-9 col-lg-8">
               <h4>Freelancer</h4>
-              <p class="mb-0"><strong>Too Much Sauce - Web Design and Development</strong></p>
-              <p>Designed and developed a website using Bootstrap to help show off a series of animated GIFs. Currently working on converting into a Wordpress theme.</p>
-              <p class="mb-0"><strong>Ryan Bechtel - Web Design and Development</strong></p>
-              <p>Redesigned and developed a responsive website that better highlights the client’s work reel.</p>
-              <p class="mb-0"><strong>Kaelyn Benham - Web Consultation</strong></p>
+              <p class="mb-0"><strong>Ryan Bechtel &mdash; Web Design and Development (In progress)</strong></p>
+              <p>Currently in the process of redesigning and developing a multi-page website for a motion designer based in Chicago.</p>
+              <p class="mb-0"><strong>Too Much Sauce &mdash; Web Design and Development</strong></p>
+              <p>Designed and developed a website using Bootstrap to help show off a series of animated GIFs.</p>
+              <p class="mb-0"><strong>Kaelyn Benham &mdash; Web Consultation</strong></p>
               <p>Automated process of capturing new subscribers’ email addresses by integrating Eventbrite and MailChimp using Zapier. Coded temporary “Coming Soon” page with MailChimp signup form. Helped set up hosting service with domain transfers and FTP accounts.</p>
-              <p class="mb-0"><strong>MK Education - Web and Graphic Design</strong></p>
+              <p class="mb-0"><strong>MK Education &mdash; Web and Graphic Design</strong></p>
               <p>Designed a set of header banners for website. Helped customize and complete website using Wix.</p>
-              <p class="mb-0"><strong>Chef Arun - Graphic Design</strong></p>
+              <p class="mb-0"><strong>Chef Arun &mdash; Graphic Design</strong></p>
               <p>Developed a logo for the upcoming line of Thai packaged foods. Created artwork for rice bag packaging.</p>
-              <p class="mb-0"><strong>East China Inn - Graphic Design</strong></p>
+              <p class="mb-0"><strong>East China Inn &mdash; Graphic Design</strong></p>
               <p>Designed punch card coupons to increase customer loyalty.</p>
             </div>
           </div>
@@ -80,11 +80,14 @@
               </div>
               <div class="row">
                 <ul>
-                  <li><strong>Web:</strong> HTML, CSS, JavaScript, jQuery, PHP (limited)</li>
+                  <li><strong>Languages:</strong> HTML, CSS, JavaScript, PHP, MySQL*</li>
+                  <li><strong>Frameworks:</strong> jQuery, Bootstrap, Vue.js*, ReactJS*</li>
+                  <li><strong>CMS:</strong> Wordpress*</li>
                   <li><strong>UX/UI Tools:</strong> Sketch, Balsamiq, Axure, InVision</li>
                   <li><strong>Adobe CC:</strong> Illustrator, InDesign, Photoshop</li>
                   <li><strong>Other:</strong> Positive, adaptable, attentive, resourceful</li>
                 </ul>
+                <small>* Limited, but actively learning!</small>
               </div>
             </div>
           </div>
