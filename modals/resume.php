@@ -79,7 +79,7 @@
                 </div>
               </div>
               <div class="row">
-                <ul>
+                <ul class="mb-30">
                   <li><strong>Languages:</strong> HTML, CSS, JavaScript, PHP, MySQL*</li>
                   <li><strong>Frameworks:</strong> jQuery, Bootstrap, Vue.js*, ReactJS*</li>
                   <li><strong>CMS:</strong> Wordpress*</li>
@@ -87,7 +87,7 @@
                   <li><strong>Adobe CC:</strong> Illustrator, InDesign, Photoshop</li>
                   <li><strong>Other:</strong> Positive, adaptable, attentive, resourceful</li>
                 </ul>
-                <small>* Limited, but actively learning!</small>
+                <p class="text-right"><small>* Limited, but actively learning!</small></p>
               </div>
             </div>
           </div>
