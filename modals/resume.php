@@ -19,7 +19,7 @@
             <div class="col-md-9 col-lg-8">
               <h4>Freelancer</h4>
               <p class="mb-0"><strong>Ryan Bechtel &mdash; Web Design and Development (In progress)</strong></p>
-              <p>Currently in the process of redesigning and developing a multi-page website for a motion designer based in Chicago.</p>
+              <p>Designed and developed a temporary webpage for a motion designer based in Chicago. Currently in the process of building out the full multi-page Wordpress site.</p>
               <p class="mb-0"><strong>Too Much Sauce &mdash; Web Design and Development</strong></p>
               <p>Designed and developed a website using Bootstrap to help show off a series of animated GIFs.</p>
               <p class="mb-0"><strong>Kaelyn Benham &mdash; Web Consultation</strong></p>
