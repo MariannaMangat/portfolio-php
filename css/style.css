@@ -137,6 +137,10 @@ footer.row {
   /*color: #208479;*/
   text-decoration: underline;
 }
+.navbar-nav .outline.pink {
+  margin: 20px 15px 0;
+  padding-top: 0;
+}
 /* Fixed Menu */
 .menu-fixed {
   background-color: #fffefd;
@@ -160,6 +164,9 @@ footer.row {
   display: block;
   margin-top: 0;
   opacity: 1;
+}
+.menu-fixed .outline.pink {
+  margin-top: 11px;
 }
 
 /* =====================
@@ -306,21 +313,14 @@ footer.row {
   background-color: #fffefd;
   color: #df3778;
 }
-/* Navbar Contact Button */
-.navbar-nav .outline.pink {
+.outline.pink {
   border-color: #df3778;
   color: #df3778;
-  margin: 20px 15px 0;
-  padding-top: 0;
 }
-.navbar-nav .outline.pink:focus,
-.navbar-nav .outline.pink:hover {
+.outline.pink:focus,
+.outline.pink:hover {
   background-color: #df3778;
   color: #fffefd;
-  text-decoration: none;
-}
-.menu-fixed .outline.pink {
-  margin-top: 11px;
 }
 /* Codepen and Github SVG Buttons */
 .iconBtn > img {
