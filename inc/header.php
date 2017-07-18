@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Tiffany Du | Designer &amp; Front-End Developer</title>
+  <title>Tiffany Du | Front-End Developer &amp; Designer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Portfolio website for Tiffany Du, a designer and front-end developer based in Chicago, IL.">
