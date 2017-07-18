@@ -3,7 +3,7 @@
     <div class="col-xs-12">
       <a class="teaser" href="#" data-toggle="modal" data-target="#bechtelModal">
         <div>
-          <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/placeholder-teaser.png" alt="BechtelMGFX teaser">
+          <img class="img-responsive bg-shadow" src="assets/portfolio/teasers/bechtelmgfx-teaser.jpg" alt="BechtelMGFX teaser">
           <div class="overlay">
               <div>
               <h3>BechtelMGFX.com</h3>
