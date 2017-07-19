@@ -10,46 +10,22 @@
         <div class="modal-body">
           <div class="flex-container">
             <div class="flex-item full">
-              <img src="assets/portfolio/weather/weather-hero.jpg" alt="BechtelMGFX hero">
+              <img src="assets/portfolio/bec/bechtelmgfx-hero.jpg" alt="BechtelMGFX hero">
             </div>
             <div class="flex-item full">
               <div class="text">
                 <h4>Project Overview</h4>
-                <p>This is a single-page weather app that uses the HTML5 Geolocation and Wunderground APIs to retrieve the weather forecast for the user's current location. It's a responsive design that uses a mixture of JavaScript, jQuery, and AJAX to request, manipulate, and output data to the page.</p>
-              </div>
-            </div>
-            <div class="flex-item">
-              <img src="assets/portfolio/weather/weather-sketch2.jpg" alt="Weather app sketch">
-            </div>
-            <div class="flex-item">
-              <img src="assets/portfolio/weather/weather-sketch1.jpg" alt="Weather app sketch">
-            </div>
-            <div class="flex-item full crop">
-              <img src="assets/portfolio/weather/weather-sketch3.jpg" alt="Weather app sketch">
-            </div>
-            <div class="flex-item full">
-              <div class="text">
-                <h4>Pure CSS Weather Icons</h4>
-                <p>When I was building this weather app, I was also learning about pure CSS images, so I thought this would be a great opportunity to apply that new knowledge! These weather icons rely on the <code>:before</code> and <code>:after</code> CSS psuedo-elements to keep them modular, easy to include, and relatively flat in structure. Check them out on <a href="https://codepen.io/tiffanyadu/pen/OprNrV" target="_blank" title="View CSS weather icons on CodePen">Codepen</a>!</p>
+                <p>Ryan Bechtel is a motion designer based in Chicago. He recently gave his brand a major overhaul to better reflect the quality of work he offers and wanted a new website to match. Following the clean, cool, modern style of Ryan's brand, I've designed and developed a temporary webpage with Wordpress that allows him to promote and share his reel (AKA a portfolio video) with potential clients. This page serves as a starting point for the final website, which I'm currently working on.</p>
               </div>
             </div>
             <div class="flex-item full crop">
-              <img src="assets/portfolio/weather/weather-icons.png" alt="Weather icons">
+              <img src="assets/portfolio/bec/bechtelmgfx-sketch.jpg" alt="BechtelMGFX temporary site sketch">
             </div>
             <div class="flex-item full">
               <div class="text">
-                <h4>UI/UX Design</h4>
-                <p>Even though this is a simple web application, I still wanted it to deliver a great user experience. A pulsing button animation invites the user to share their location and the message bar at the top provides helpful information about the app's current status.</p>
+                <h4>Custom Wordpress Theme and Website (In Progress)</h4>
+                <p>The final website will be a multi-page Wordpress site that allows Ryan to edit and upload content on his own. It will include page templates for project breakdowns, as well as a photo feed from his Instagram account where he shares his experimental work. More to come soon!</p>
               </div>
-            </div>
-            <div class="flex-item left top">
-              <img src="assets/portfolio/weather/pulse.gif" alt="Pulsing button animation">
-            </div>
-            <div class="flex-item">
-              <img src="assets/portfolio/weather/weather-details.jpg" alt="Status bar messages">
-            </div>
-            <div class="flex-item full">
-              <img src="assets/portfolio/weather/weather-scene.jpg" alt="Weather app in use">
             </div>
             <div class="flex-item full mb-30">
               <div class="text text-center">
