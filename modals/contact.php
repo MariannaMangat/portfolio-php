@@ -35,7 +35,7 @@
             <div style="display:none">
               <label for="robot">Are you a robot?</label>
               <input id="robot" type="text" name="robot">
-              <p>Please leave this field blank!</p>
+              <p>Please leave this field blank! This is to prevent spam.</p>
             </div>
           </form>
           <div class="modal-footer">
